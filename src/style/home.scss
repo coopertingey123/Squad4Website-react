@@ -1,0 +1,45 @@
+.body {
+
+    .intro {
+        display: flex;
+        justify-content: center;
+        font-size: 30px;
+    }
+
+    .photo {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        height: 50vh;
+        margin-top: 20px;
+        margin-bottom: 40px;
+
+        img {
+            height: 50vh;
+            width: 30vw;
+
+        }
+    }
+
+    .shop {
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+    }
+
+    .homepage-links {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+
+        .body-nav-link {
+        text-decoration: none;
+        color: navy;
+        font-size: 20px;
+        }
+    }
+
+
+}
+
+    

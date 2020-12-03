@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 
 import Navbar from "../components/navigation/navbar"
+import Home from "./pages/home"
 
 export default class App extends Component {
   render() {
@@ -8,6 +9,7 @@ export default class App extends Component {
       <div className='container'>
         <div>
           <Navbar/>
+          <Home/>
         </div>
       </div>
     );
