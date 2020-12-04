@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { Link } from "react-router-dom"
 
+
 import squadImage from "../../../static/assets/images/squad.jpg"
 
 export default class Home extends Component {
